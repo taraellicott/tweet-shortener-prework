@@ -1,3 +1,5 @@
+////NEED TO REDO THIS LAB FOR COMPREHENSION////
+
 require "pry"
 
 def dictionary
