@@ -15,15 +15,6 @@ def dictionary
   }
 end
 
-def word_substituter(tweet_string)
-  tweet_string.split.map do |word|
-    if tweet_string.include?(word)
-      word.replace(sign)
-    end
-  end
-  tweet_string
-end
-
 
 # def word_substituter(tweet)
 #   tweet.split.collect do |word|
@@ -34,6 +25,7 @@ end
 #     end
 #   end.join(" ")
 # end
+
 
 def bulk_tweet_shortener(tweets)
   tweets.each do |tweet|
