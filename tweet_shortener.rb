@@ -23,7 +23,7 @@ def word_substituter(tweet_string)
   end
   tweet_string
 end
-binding.pry
+
 
 # def word_substituter(tweet)
 #   tweet.split.collect do |word|
@@ -42,15 +42,15 @@ def bulk_tweet_shortener(tweets)
 end
 
 
-def bulk_tweet_shortener(tweets_array)
-  tweets_array.map do |words|
-end
+# def bulk_tweet_shortener(tweets_array)
+#   tweets_array.map do |words|
+# end
 
 
 
-def selective_tweet_shortener
-end
+# def selective_tweet_shortener
+# end
 
 
-def shortened_tweet_truncator
-end
+# def shortened_tweet_truncator
+# end
